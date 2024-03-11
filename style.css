@@ -1,0 +1,76 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.todo {
+  width: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 50px;
+}
+body {
+  background-color: bisque;
+}
+.todo__title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.todo__top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+.todo__inp {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 100%;
+}
+.todo__btn {
+  background-color: rgb(10, 138, 89);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.todo__body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border-bottom: 1px solid gray;
+}
+.todo__item {
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.todo__delete {
+  background-color: rgb(211, 22, 22);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.todo__name {
+  font-size: 18px;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+  opacity: 0.9;
+  cursor: pointer;
+}
+.todo__edit {
+  background-color: rgb(50, 22, 211);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
